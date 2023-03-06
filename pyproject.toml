@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "api-zero"
+version = "0.1.0"
+description = ""
+authors = ["Luiz Paulo Coutinho <coutinholps@gmail.com>"]
+readme = "README.md"
+packages = [{include = "api_zero"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.20.0"
+fastapi = "^0.92.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
